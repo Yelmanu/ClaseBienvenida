@@ -19,9 +19,9 @@ namespace ClaseBienvenida
             MenuInterfaz menuInterfaz = new MenuImplementacion();
 
             menuInterfaz.mensajeBienvenida();
-
+            //Creamos una variable bool y una variable int para el menu (bool para el control
+            //de flujo while e int para capturar la opcion introducida por el usuario)
             bool cerrarMenu=false;
-
             int opcionSeleccionada;
 
             while(!cerrarMenu)
